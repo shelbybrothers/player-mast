@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Squid Player</title>
+
+
+  <link rel="shortcut icon" href="./favicon.ico" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+    <div class="container">
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logoplayeran.png" width="100" height="30" alt="Nike home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+
+          <li>
+            <a href="https://x.com/squidplayerSOL" class="navbar-link">Twitter</a>
+          </li>
+
+          <li>
+            <a href="https://t.me/squidplayersol" class="navbar-link">Telegram</a>
+          </li>
+
+          <li>
+            <a href="https://pump.fun/" class="navbar-link">Swap $SQPlayer</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+       
+
+        <button class="profile-btn" aria-label="profile">
+          <img src="./assets/images/profile1.png" width="100" height="100" alt="profile" class="img">
+        </button>
+  
+        <a href="#" class="btn" aria-labelledby="wallet">
+          <ion-icon name=""></ion-icon>
+  
+          <span id="wallet">Sign In</span>
+        </a>
+
+      </div>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <section class="section product" aria-label="product">
+        <div class="container">
+
+          <div id="rango-widget-container"></div>
+<script src="https://api.rango.exchange/widget/iframe.bundle.min.js"></script>
+<script defer type="text/javascript">
+
+  const config = {
+    amount: 1,
+    variant: 'expanded',
+    from: {
+        blockchain: 'SOLANA',
+        token: {
+            blockchain: 'SOLANA',
+            address: 'So11111111111111111111111111111111111111112',
+            symbol: 'WSOL'
+        },
+        blockchains: [
+            'SOLANA'
+        ],
+        pinnedTokens: []
+    },
+    to: {
+        blockchain: 'SOLANA',
+        token: {
+            blockchain: 'SOLANA',
+            address: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
+            symbol: 'USDT'
+        },
+        blockchains: [
+            'SOLANA'
+        ],
+        pinnedTokens: []
+    },
+    theme: {
+        mode: 'dark',
+        borderRadius: 38,
+        secondaryBorderRadius: 23,
+        singleTheme: true,
+        colors: {
+            dark: {
+                primary: '#4c228a',
+                secondary: '#6D49A6',
+                neutral: '#2c284b',
+                info: '#6B3CB1',
+                foreground: '#fcf7ff',
+                background: '#120f29ff'
+            }
+        }
+    },
+    // This API key is only for test purpose. Don't use it in production.
+    apiKey: 'c6381a79-2817-4602-83bf-6a641a409e32',
+    // This project id is only for test purpose. Don't use it in production.
+    // Get your Wallet Connect project id from https://cloud.walletconnect.com/
+    walletConnectProjectId: 'e24844c5deb5193c1c14840a7af6a40b'
+  }
+              
+  rangoWidget.init(config)
+</script>
+
+
+
+          <div class="product-content">
+
+            <p class="product-subtitle">Welcome to Squid Player SOL</p>
+
+            <h1 class="h1 product-title">Play. Survive. Thrive.</h1>
+
+            <p class="product-text">
+              <span class="highlight">[Trends]</span> This section will show the latest trends in price/volume etc. allow users to be able to make quick decisions and to see where the market is going. Next to the trends section there’ll be a ‘trending’ bar with the top 10 trending tokens.
+            </p>
+
+            <p class="product-text">
+              <span class="highlight">[New Pairs]</span> All new pairs listed will be added in a specific list so users can start doing their own research quickly and be one of the first to join new projects. Always make sure to triple check these new pairs! The team will create Telegram new pair bot for each chain, so users can directly be notified when a new pair is listed on a certain chain.
+            </p>
+           
+            <p class="product-text">
+              <span class="highlight">[Multi-Chain Bridges]</span> Bridges between blockchains are a vital part of the crypto industry and allows you to transfer funds between the different blockchains. Orbital Swap will set up so-called “Liquidity Bridges”.  
+             </p>
+
+          
+
+            <div class="btn-group">
+
+             
+
+             
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
